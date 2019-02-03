@@ -1,0 +1,26 @@
+.toolbar {
+  border: 1px solid #111;
+  background: #333;
+  border-radius: 2px;
+  z-index: 2;
+  box-sizing: border-box;
+  position: fixed;
+  top: 45px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.toolbar:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #333;
+  border-width: 4px;
+  margin-left: -4px;
+}
+
+.toolbar:before {
+  border-color: rgba(221, 221, 221, 0);
+  border-top-color: #111;
+  border-width: 6px;
+  margin-left: -6px;
+}
